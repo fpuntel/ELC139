@@ -1,0 +1,29 @@
+
+- Adicionar mais uma vez sua máquina no seguinte arquivo:
+ $ nano /etc/hosts
+
+- Exemplo:
+127.0.1.1	lsc-Inspiron-560s
+127.0.1.1	no00
+127.0.1.1	no01
+
+- Instalar o ssh server
+ $ sudo apt-get install openssh-server
+
+- Acessar o seguinte arquivo:
+ $ sudo nano /etc/ssh/ssh_config
+
+- Retirar o comentário da linha:
+PubkeyAuthentication yes
+
+- Caso não tenha essa configuração adicionar no arquivo.
+- O próximo passo é reiniciar o processo sshd:
+sudo systemctl restart sshd
+
+- Agora é adicionar sua chave ssh nas chaves autorizadas
+ $ cd
+ $ cd .ssh
+ $ cat id_rsa.pub
+
+- Copiar a chave e colar no seguinte arquivo:
+ $ nano authorized_keys
