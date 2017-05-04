@@ -29,3 +29,8 @@ O trabalho deve ser entregue até as 23:55 do dia 17/05/2017. Ambos alunos da du
 [Open MPI documentation](https://www.open-mpi.org/doc/)
 
 [MPI Hello World](http://mpitutorial.com/tutorials/mpi-hello-world/)
+
+## Contato
+
+fernandopuntel@gmail.com
+skype: fpuntel
